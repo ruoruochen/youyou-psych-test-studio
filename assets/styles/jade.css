@@ -1,0 +1,24 @@
+/* A · 青绿清简. Shared primitives: base.css. */
+html[data-theme="jade"]{--bg:#f4f8f5;--surface:#fff;--surface-soft:#e7f2eb;--ink:#17392e;--body:#344e45;--muted:#60746a;--accent:#167052;--accent-deep:#105940;--line:#dceae2;--font-display:var(--font-sans);--radius-lg:22px;--radius-sm:13px;--shadow:0 10px 34px #19463109}
+html[data-theme="jade"] .studio-surface .test-cover{max-width:930px;margin:auto;text-align:center;padding-top:52px}
+html[data-theme="jade"] .studio-surface .cover-grid{display:flex;flex-direction:column;gap:0}
+html[data-theme="jade"] .studio-surface .cover-copy{max-width:620px;margin:auto}
+html[data-theme="jade"] .studio-surface .cover-title{font-weight:650;letter-spacing:-1.5px}
+html[data-theme="jade"] .studio-surface .cover-copy .button-row{justify-content:center}
+html[data-theme="jade"] .studio-surface .cover-art{min-height:0;height:155px;width:230px;margin:29px auto 0;border:0;border-radius:50%;background:radial-gradient(ellipse,#deeee2 0%,#edf6efaa 58%,transparent 72%);overflow:visible}
+html[data-theme="jade"] .studio-surface .art-orbit{width:124px;height:124px;border-color:#b7d5c3;transform:rotate(-12deg)}
+html[data-theme="jade"] .studio-surface .art-orbit:before,html[data-theme="jade"] .studio-surface .art-orbit:after{border-color:#c4dece}
+html[data-theme="jade"] .studio-surface .art-glyph{width:62px;height:76px;font-size:34px;transform:rotate(12deg);border-radius:19px}
+html[data-theme="jade"] .studio-surface .art-dot{top:4px;right:25px}
+html[data-theme="jade"] .studio-surface .art-caption{bottom:-9px;font-size:11px}
+html[data-theme="jade"] .studio-surface .metadata-strip{max-width:700px;margin-inline:auto}
+html[data-theme="jade"] .studio-surface .metric{box-shadow:var(--shadow);border:0;border-radius:17px;padding:20px 12px}
+html[data-theme="jade"] .studio-surface .cover-steps{max-width:650px;margin-inline:auto;text-align:left;border-top:1px solid var(--line);padding-top:23px}
+html[data-theme="jade"] .studio-surface .quiz-side{border:0;background:linear-gradient(150deg,#dcefe3,#f1f8f3)}
+html[data-theme="jade"] .studio-surface .quiz-main{padding:25px;background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow)}
+html[data-theme="jade"] .studio-surface .option{background:#f8fbf9}
+html[data-theme="jade"] .studio-surface .option.is-illustrated{background:#e5f2e9;border-color:#75b08c}
+html[data-theme="jade"] .studio-surface .result-title{border:0;background:linear-gradient(145deg,#dcefe2,#eef8f0)}
+html[data-theme="jade"] .studio-surface .report-card,html[data-theme="jade"] .studio-surface .report-overview{box-shadow:var(--shadow)}
+html[data-theme="jade"] .studio-surface .report-card h3:before{content:"";display:inline-block;width:6px;height:17px;border-radius:4px;background:var(--accent);margin-right:10px;vertical-align:-2px;opacity:.8}
+@media(max-width:600px){html[data-theme="jade"] .studio-surface .test-cover{padding-top:31px}html[data-theme="jade"] .studio-surface .cover-title{font-size:33px}html[data-theme="jade"] .studio-surface .cover-art{height:150px;margin-top:22px}html[data-theme="jade"] .studio-surface .metadata-strip{margin-top:26px}html[data-theme="jade"] .studio-surface .metric{padding:16px 4px}html[data-theme="jade"] .studio-surface .quiz-main{padding:21px 16px}html[data-theme="jade"] .studio-surface .quiz-shell{padding-inline:13px}}

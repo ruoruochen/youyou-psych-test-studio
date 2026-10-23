@@ -1,0 +1,4 @@
+interface:
+  display_name: "心理测试工作室"
+  short_description: "按主题规划完整测验资料包，确认风格后制作网页并部署国内入口"
+  default_prompt: "使用 $youyou-psych-test-studio 为我的主题规划测试资料包，先让我选择网页风格，确认后生成本地网页，并按需部署到国内可访问的平台。"

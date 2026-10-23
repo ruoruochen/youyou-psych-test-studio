@@ -1,0 +1,35 @@
+/* B · 米金书卷. Paper styling does not prescribe a historical topic. */
+html[data-theme="parchment"]{--bg:#f4eddf;--surface:#fbf7ee;--surface-soft:#eee1c8;--ink:#352d25;--body:#665641;--muted:#7a6852;--accent:#9d352b;--accent-deep:#7f2821;--line:#d9c9a9;--font-display:var(--font-serif);--radius-lg:3px;--radius-sm:3px;--shadow:0 10px 30px #61452308}
+html[data-theme="parchment"] body{background-image:radial-gradient(ellipse at 75% 5%,#fff9e988,transparent 65%)}
+html[data-theme="parchment"] .studio-surface .test-cover{padding:48px 42px 35px;position:relative}
+html[data-theme="parchment"] .studio-surface .eyebrow{font-weight:400;letter-spacing:3px}
+html[data-theme="parchment"] .studio-surface .cover-title{font-weight:500;letter-spacing:2px;line-height:1.38}
+html[data-theme="parchment"] .studio-surface .cover-subtitle{font-family:var(--font-serif);font-size:16px}
+html[data-theme="parchment"] .studio-surface .cover-art{border:1px solid #bda16d;outline:1px solid #d9c9a9;outline-offset:6px;background:linear-gradient(135deg,#eee1c7,#fbf7eb);min-height:280px;border-radius:45% 45% 2px 2px;margin:0 6px 6px}
+html[data-theme="parchment"] .studio-surface .art-orbit{border-radius:0;width:138px;height:175px;border:3px double #bda16d;background:#fbf6e9;transform:rotate(7deg);box-shadow:14px 9px 0 -1px #e7d7b8,14px 9px 0 0 #bda16d}
+html[data-theme="parchment"] .studio-surface .art-orbit:before{inset:9px;border-radius:0;border-color:#d7c39d}
+html[data-theme="parchment"] .studio-surface .art-orbit:after{inset:22px;border-radius:0;border:0;border-top:1px solid #d9c9a9;border-bottom:1px solid #d9c9a9}
+html[data-theme="parchment"] .studio-surface .art-glyph{border:0;background:none;box-shadow:none;font-size:49px;width:auto;height:auto;transform:rotate(-7deg)}
+html[data-theme="parchment"] .studio-surface .art-dot{width:18px;height:35px;border-radius:2px;top:27px;right:26px;background:var(--accent);opacity:.8}
+html[data-theme="parchment"] .studio-surface .art-caption{font-family:var(--font-serif);letter-spacing:3px}
+html[data-theme="parchment"] .studio-surface .metadata-strip{gap:0;border-block:1px solid var(--line);margin-top:35px;padding-block:20px}
+html[data-theme="parchment"] .studio-surface .metric{border:0;border-right:1px solid var(--line);border-radius:0;background:none;padding:8px 10px}
+html[data-theme="parchment"] .studio-surface .metric:last-child{border-right:0}
+html[data-theme="parchment"] .studio-surface .metric strong{font:17px var(--font-serif);font-weight:500}
+html[data-theme="parchment"] .studio-surface .cover-steps{gap:20px}
+html[data-theme="parchment"] .studio-surface .step b{border-radius:2px;border:1px solid #c9ad78;background:none;color:var(--accent);font-family:var(--font-serif)}
+html[data-theme="parchment"] .studio-surface .quiz-side{border:3px double #c9ad78;background:#eee0c4;position:relative}
+html[data-theme="parchment"] .studio-surface .quiz-side strong{font-weight:500;font-size:37px;line-height:1.4;color:#725435}
+html[data-theme="parchment"] .studio-surface .progress-track{height:3px;border-radius:0}
+html[data-theme="parchment"] .studio-surface .question{font-weight:600;letter-spacing:.6px}
+html[data-theme="parchment"] .studio-surface .option{background:#fcf8ef88;border-color:#d6c4a0}
+html[data-theme="parchment"] .studio-surface .option.is-illustrated{background:#eee0c7;border-color:#a96a51}
+html[data-theme="parchment"] .studio-surface .result-title,html[data-theme="parchment"] .studio-surface .report-overview{border:1px solid #bda16d;outline:1px solid #d9c9a9;outline-offset:4px;background:#fcf6e9aa}
+html[data-theme="parchment"] .studio-surface .result-name{font-size:37px;font-weight:500;letter-spacing:2px;color:var(--accent)}
+html[data-theme="parchment"] .studio-surface .result-title:after{content:"鉴";position:absolute;right:8px;bottom:-16px;font:144px var(--font-serif);color:#b89c6922;pointer-events:none}
+html[data-theme="parchment"] .studio-surface .tag{border-color:#d7c3a0;background:#eadbbc55;color:#80603d;padding:3px 10px}
+html[data-theme="parchment"] .studio-surface .report-card{background:#fcf8ef88;border-color:#d3c09a}
+html[data-theme="parchment"] .studio-surface .report-card h3{color:#7f4436;font-size:22px;font-weight:500}
+html[data-theme="parchment"] .studio-surface .action-step b{border-radius:3px;background:var(--accent);color:#fff4dd;font-family:var(--font-serif)}
+html[data-theme="parchment"] .studio-surface .track i{background:linear-gradient(90deg,#bd9e60,#9d352b)}
+@media(max-width:600px){html[data-theme="parchment"] .studio-surface .test-cover{padding:31px 22px}html[data-theme="parchment"] .studio-surface .cover-title{font-size:35px;letter-spacing:1px}html[data-theme="parchment"] .studio-surface .cover-subtitle{font-size:14px}html[data-theme="parchment"] .studio-surface .cover-art{min-height:235px;margin-top:2px}html[data-theme="parchment"] .studio-surface .metadata-strip{padding-block:17px;margin-top:28px}html[data-theme="parchment"] .studio-surface .metric strong{font-size:14px}html[data-theme="parchment"] .studio-surface .result-name{font-size:33px}html[data-theme="parchment"] .studio-surface .result-title{margin-bottom:23px}html[data-theme="parchment"] .studio-surface .report-card h3{font-size:21px}}
